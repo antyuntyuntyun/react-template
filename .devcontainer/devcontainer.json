@@ -55,7 +55,7 @@
     "markdown.extension.syntax.decorations": false,
     "markdown.extension.tableFormatter.enabled": false,
     // Add the IDs of extensions you want installed when the container is created.
-    "extensions": [
+    "remote.containers.defaultExtensions": [
       // base
       "vincaslt.highlight-matching-tag",
       "donjayamanne.githistory",
