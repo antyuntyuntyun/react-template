@@ -1,0 +1,17 @@
+version: "3"
+services:
+  frontend:
+    build:
+      context: .
+      args:
+        WORKDIR: /frontend
+      dockerfile: Dockerfile
+    volumes:
+      - .:/frontend
+      - /frontend/node_modules
+    image: frontend-image
+    container_name: frontend-container
+    ports:
+      - "3000:3000"
+    tty: true
+    
