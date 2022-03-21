@@ -25,7 +25,3 @@ Dockerfile.prod や docker-compose.prod.yaml を利用
 ## VScode 設定
 
 `.devcontainer/devcontainer.json`内に記載
-
-## 本番環境へのデプロイ
-
-本番環境へのデプロイは`Dockerfile.prod`を用いること
