@@ -24,7 +24,10 @@
         "path": "/bin/bash"
       }
     },
-    "[javascript]": {
+    "editor.renderLineHighlight": "none",
+    "prettier.singleQuote": true,
+    "npm.packageManager": "yarn",
+    "[javascript][javascriptreact]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode",
       "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
@@ -36,7 +39,7 @@
         "source.fixAll.eslint": true
       }
     },
-    "[typescript]": {
+    "[typescript][typescriptreact]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode",
       "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
